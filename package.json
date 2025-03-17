@@ -1,0 +1,22 @@
+{
+  "name": "rhetorics-pcb",
+  "version": "1.0.0",
+  "description": "Rhetorics PCB shopify",
+  "main": "index.js",
+  "author": "Marcos Guardado",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/express": "^4.17.1",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  },
+  "scripts": {
+    "dev": "nodemon --watch 'src/**' --ext 'ts,json' --ignore 'src/**/*.spec.ts' --exec npx ts-node src/app.ts"
+  }
+}
